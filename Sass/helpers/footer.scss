@@ -1,0 +1,134 @@
+.fhutar {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+
+    .fhutar-left {
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .social-box {
+            ul {
+                li {
+                    .social-box-text {
+                        display: flex;
+                        margin-top: 20px;
+
+                        img {
+                            height: 30px;
+                        }
+
+                        a {
+                            font-size: 16px;
+                            width: 300px;
+                            font-weight: 400;
+                            line-height: 25px;
+                            margin-left: 10px;
+                            color: var(--black);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fhutar-centar {
+
+        display: flex;
+
+        .fhutar-centar-left {
+            h2 {
+                font-size: 32px;
+                font-weight: 700;
+                padding-bottom: 20px;
+            }
+
+            ul {
+                li {
+                    padding: 5px 0;
+
+                    a {
+                        font-size: 20px;
+                        font-weight: 700;
+                        opacity: 1;
+                        visibility: visible;
+                        color: var(--black);
+                    }
+
+                    & a:hover {
+                        color: var(--brand-primary);
+                        opacity: 1;
+                        transition: 0.5s all ease;
+                    }
+                }
+            }
+        }
+
+        .fhutar-centar-right {
+            margin-left: 80px;
+
+            h2 {
+                font-size: 32px;
+                font-weight: 700;
+                padding-bottom: 20px;
+            }
+
+            ul {
+                li {
+                    padding: 5px 0;
+
+                    a {
+                        font-size: 20px;
+                        font-weight: 700;
+                        opacity: 1;
+                        visibility: visible;
+                        color: var(--black);
+                    }
+
+                    & a:hover {
+                        color: var(--brand-primary);
+                        opacity: 1;
+                        transition: 0.5s all ease;
+                    }
+                }
+            }
+        }
+    }
+
+    .fhutar-right {
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            width: 250px;
+            line-height: 25px;
+            font-weight: 400;
+            padding-top: 20px;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        a {
+            background-color: var(--brand-primary);
+            padding: 15px 25px;
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--black);
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        & a:hover {
+            background-color: var(--dark-gree);
+            opacity: 1;
+            transition: 0.5s all ease;
+            color: var(--white);
+
+        }
+    }
+}

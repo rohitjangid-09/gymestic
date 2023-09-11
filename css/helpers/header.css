@@ -1,0 +1,53 @@
+.top-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+.top-heading .logo a img {
+  height: 50px;
+}
+.top-heading .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top-heading .menu ul li {
+  margin: 0 20px;
+}
+.top-heading .menu ul li a {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  visibility: visible;
+  opacity: 1;
+}
+.top-heading .menu ul li img {
+  padding-left: 8px;
+}
+.top-heading .menu ul li a:hover {
+  color: var(--brand-primary);
+  opacity: 1;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+.top-heading .menu-social-icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-heading .menu-social-icon ul li {
+  margin: 0 8px;
+}
+.top-heading .menu-icon {
+  display: none;
+}

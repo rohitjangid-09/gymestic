@@ -1,0 +1,84 @@
+.plans-heading {
+    text-align: center;
+    margin-top: 100px;
+
+    h2 {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        width: 900px;
+        line-height: 25px;
+        padding-top: 10px;
+        margin: auto;
+    }
+}
+
+.plans {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        li {
+            background-color: #1B2126;
+            width: 414px;
+            opacity: 1;
+            visibility: visible;
+
+            .plans-text {
+                padding: 80px 0;
+                text-align: center;
+
+                h2 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    color: var(--white);
+                }
+
+                p {
+                    color: var(--white);
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 400;
+                    width: 339px;
+                    line-height: 58px;
+                    padding-top: 40px;
+                    margin: auto;
+                }
+
+                a {
+                    background-color: var(--brand-primary);
+                    padding: 15px 30px;
+                    display: inline-block;
+                    color: var(--white);
+                    margin-top: 45px;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+
+        & li:hover {
+            background-color: var(--brand-primary);
+            transition: 0.5s all ease;
+            opacity: 1;
+
+            & h2 {
+                color: var(--dark-gree);
+            }
+
+            & p {
+                color: var(--dark-gree);
+            }
+
+            & a {
+                background-color: var(--dark-gree);
+            }
+        }
+    }
+}

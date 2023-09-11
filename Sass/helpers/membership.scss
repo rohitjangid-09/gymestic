@@ -1,0 +1,27 @@
+.membership {
+    height: 50vh;
+    width: 100%;
+    background-color: var(--brand-primary);
+    margin-top: 100px;
+
+    .membership-bottan {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                padding-top: 50px;
+                text-align: center;
+                margin: 100px 15px;
+
+                a {
+                    background-color: var(--dark-gree);
+                    padding: 20px 35px;
+                    color: #FFF;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

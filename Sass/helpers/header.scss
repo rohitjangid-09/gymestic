@@ -1,0 +1,57 @@
+.top-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .logo {
+        a {
+            img {
+                height: 50px;
+            }
+        }
+    }
+
+    .menu {
+        ul {
+            display: flex;
+
+            li {
+                margin: 0 20px;
+
+                a {
+                    color: var(--white);
+                    font-size: 18px;
+                    font-weight: 700;
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                img {
+                    padding-left: 8px;
+                }
+
+                & a:hover {
+                    color: var(--brand-primary);
+                    opacity: 1;
+                    transition: 0.5s all ease;
+                }
+            }
+        }
+    }
+
+    .menu-social-icon {
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin: 0 8px;
+            }
+        }
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}

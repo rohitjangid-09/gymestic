@@ -1,0 +1,6 @@
+.membership {
+  height: 50vh;
+  width: 100%;
+  background-color: var(--brand-primary);
+  margin-top: 100px;
+}

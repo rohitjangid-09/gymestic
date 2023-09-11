@@ -1,0 +1,29 @@
+.workout {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/workout.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+
+    .workout-text {
+
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        img {
+            height: 80px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #FFF;
+            font-size: 40px;
+            font-weight: 700;
+            padding-top: 30px;
+        }
+    }
+}
